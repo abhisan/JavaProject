@@ -9,6 +9,8 @@ abstract class AbstractClass{
 
 
 
+
+
 interface InterfaceClass{
 	public static final Integer i=0; //public static final
 }
