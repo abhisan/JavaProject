@@ -7,6 +7,7 @@ public class ThreadA {
 		synchronized (b) {
 			try {
 				System.out.println("Waiting for b to complete...");
+				System.out.println("this line is added by chirag");
 				b.wait();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
